@@ -2,7 +2,7 @@
 
 Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org/VAST+Challenge+2018+MC1).
 
-### Visualization demo
+### Demo
 
 ![demo_gif](https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/demo.gif)
 
