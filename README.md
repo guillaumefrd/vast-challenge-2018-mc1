@@ -9,7 +9,7 @@ Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org
 
 ### Getting started 
 
-The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/basic_visualizations.ipynb) and [interactive_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/interactive_map.ipynb).
+The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/basic_visualizations.ipynb) and [interactive_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/interactive_map.ipynb). You can take a look at the first one on [this](https://guillaumefrd.github.io/vast-challenge-2018-mc1/basic_visualizations.html) webpage. The second one has to be executed since it runs on a local server.
 
 We highly recommend using [anaconda distribution](https://www.anaconda.com/) to run them. 
 
