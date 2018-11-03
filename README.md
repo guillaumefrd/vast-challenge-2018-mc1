@@ -7,7 +7,7 @@ Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org
 ![demo_gif](https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/demo.gif)
 
 
-### Getting started 
+### Map visualizations
 
 The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/basic_visualizations.ipynb) and [interactive_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/interactive_map.ipynb). You can take a look at the first one on [this](https://guillaumefrd.github.io/vast-challenge-2018-mc1/basic_visualizations.html) webpage. The second one has to be executed since it runs on a local server.
 
@@ -24,6 +24,10 @@ If you get errors while rendering the plots, you might want to try updating your
 ```
 conda update --all
 ```
+
+### Sound visualizations
+
+You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). 
 
 ****
 
