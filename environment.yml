@@ -277,6 +277,7 @@ dependencies:
   - zope.interface=4.5.0=py37h14c3975_0
   - pip:
     - msgpack==0.5.6
+    - pydub==0.23.0
     - tables==3.4.4
 prefix: /home/nicolas/anaconda3/envs/vast
 
