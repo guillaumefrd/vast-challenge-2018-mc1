@@ -12,7 +12,7 @@ Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org
 
 To run our repository, you need to create the environement "vast" from the 'environement.yml' file.
 ```
-conda vast create -f environment.yml
+conda env create -f environment.yml
 ```
 
 The birds songs are not included. You need to download them and put them in the appropriate folder : 'data/ALL BIRDS' and 'data/Test Birds from Kasios'.
