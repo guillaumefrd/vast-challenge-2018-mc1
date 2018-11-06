@@ -4,7 +4,7 @@ Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org
 
 ### Demo
 
-![demo_gif](https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/demo.gif)
+![demo_gif](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/docs/demo.gif)
 
 
 ### Map visualizations
@@ -13,7 +13,7 @@ The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](htt
 
 We highly recommend using [anaconda distribution](https://www.anaconda.com/) to run them. 
 
-[Report_1.pdf](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/Report_1.pdf) summarizes our works on these visualizations. 
+[Our report here](https://drive.google.com/open?id=1-K1WFsuSeG8UaD2Zj7cguEYUzXjszIWW) summarizes our works on these visualizations. 
 
 The visualizations are plotted with the Python library [Bokeh](https://bokeh.pydata.org/en/latest/). To install it, run:
 
