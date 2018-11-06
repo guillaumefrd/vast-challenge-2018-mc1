@@ -1,9 +1,3 @@
-ALL BIRDS
-all_birds_wav
-Test Birds from Kasios
-test_birds_kasios_wav
-test_birds_kasios
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
