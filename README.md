@@ -34,7 +34,7 @@ We highly recommend using [anaconda distribution](https://www.anaconda.com/) to 
 
 ### Sound visualizations
 
-You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). 
+You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). The automated classification of the birds sounds with Machine Learning in the notebook [birds_sound_classification.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_classification.ipynb). 
 
 ****
 
