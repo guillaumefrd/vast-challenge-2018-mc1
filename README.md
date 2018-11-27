@@ -2,9 +2,26 @@
 
 Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org/VAST+Challenge+2018+MC1).
 
+
 ### Demo
 
-![demo_gif](https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/demo.gif)
+![demo_gif](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/docs/demo.gif)
+
+
+### Requirement
+
+To run our repository, you need to create the environement "vast" from the 'environement.yml' file.
+```
+conda env create -f environment.yml
+```
+
+The birds songs are not included. You need to download them and put them in the appropriate folder : 'data/ALL BIRDS' and 'data/Test Birds from Kasios'.
+
+The software 'ffmpeg' is needed to convert the mp3 files to wav files.
+
+```
+sudo apt-get install ffmpeg
+```
 
 
 ### Map visualizations
@@ -13,23 +30,11 @@ The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](htt
 
 We highly recommend using [anaconda distribution](https://www.anaconda.com/) to run them. 
 
-[Report_1.pdf](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/Report_1.pdf) summarizes our works on these visualizations. 
-
-The visualizations are plotted with the Python library [Bokeh](https://bokeh.pydata.org/en/latest/). To install it, run:
-
-```
-conda install bokeh
-```
-
-If you get errors while rendering the plots, you might want to try updating your libraries.
-
-```
-conda update --all
-```
+[Our report here](https://drive.google.com/open?id=1-K1WFsuSeG8UaD2Zj7cguEYUzXjszIWW) summarizes our works on these visualizations. 
 
 ### Sound visualizations
 
-You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). 
+You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). The automated classification of the birds sounds with Machine Learning in the notebook [birds_sound_classification.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_classification.ipynb). 
 
 ****
 
