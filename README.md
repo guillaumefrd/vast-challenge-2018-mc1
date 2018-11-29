@@ -26,15 +26,16 @@ sudo apt-get install ffmpeg
 
 ### Map visualizations
 
-The repository includes two Jupyter notebooks : [basic_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/basic_visualizations.ipynb) and [interactive_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/interactive_map.ipynb). You can take a look at the first one on [this](https://guillaumefrd.github.io/vast-challenge-2018-mc1/basic_visualizations.html) webpage. The second one has to be executed since it runs on a local server.
-
-We highly recommend using [anaconda distribution](https://www.anaconda.com/) to run them. 
-
-[Our report here](https://drive.google.com/open?id=1-K1WFsuSeG8UaD2Zj7cguEYUzXjszIWW) summarizes our works on these visualizations. 
+- [1_basic_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/1_basic_map.ipynb)
+- [2_dynamic_map.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/2_dynamic_map.ipynb)
+- [report](https://drive.google.com/open?id=1-K1WFsuSeG8UaD2Zj7cguEYUzXjszIWW):  summary of our work on these visualizations.
 
 ### Sound visualizations
 
-You will find the visualizations of the sounds in the notebook [birds_sound_visualizations.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_visualizations.ipynb). The automated classification of the birds sounds with Machine Learning in the notebook [birds_sound_classification.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/birds_sound_classification.ipynb). 
+- [3_amplitude_analysis.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/3_amplitude_analysis.ipynb)
+- [4_spectral_analysis.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/4_spectral_analysis.ipynb)
+- [5_classification_ml.ipynb](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/5_classification_ml.ipynb)
+
 
 ****
 
