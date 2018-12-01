@@ -20,7 +20,7 @@ songs_path = os.path.join(data_path,"ALL BIRDS/")
 obs_kasios_path = os.path.join(data_path, "obs_kasios.pickle")
 songs_kasios_path = os.path.join(data_path,"Test Birds from Kasios/")
 
-map_path = os.path.join(data_path, "map.jpg")
+map_path = "https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/data/map.jpg"
 
 
 
