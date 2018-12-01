@@ -14,7 +14,7 @@ Check our work and visualization **without the need to run anything**, thanks to
 
 ### Demo of the dynamic map
 
-![demo_gif](https://github.com/guillaumefrd/vast-challenge-2018-mc1/blob/master/docs/demo.gif)
+![demo_gif](https://raw.githubusercontent.com/guillaumefrd/vast-challenge-2018-mc1/master/docs/demo.gif)
 
 ## Notebooks 
 
