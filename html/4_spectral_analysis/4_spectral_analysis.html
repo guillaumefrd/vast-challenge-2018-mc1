@@ -11819,7 +11819,7 @@ $( document ).ready(function(){
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Utilities" data-toc-modified-id="Utilities-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Utilities</a></span></li><li><span><a href="#Load-files-and-compute-all-spectres" data-toc-modified-id="Load-files-and-compute-all-spectres-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Load files and compute all spectres</a></span></li><li><span><a href="#Blue-pipit-analysis" data-toc-modified-id="Blue-pipit-analysis-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Blue pipit analysis</a></span><ul class="toc-item"><li><span><a href="#Average-spectre" data-toc-modified-id="Average-spectre-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Average spectre</a></span></li><li><span><a href="#Random-Blue-Pipit-Spectre" data-toc-modified-id="Random-Blue-Pipit-Spectre-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Random Blue Pipit Spectre</a></span></li></ul></li><li><span><a href="#Kasios-files" data-toc-modified-id="Kasios-files-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Kasios files</a></span></li><li><span><a href="#Analyse-a-specific-file" data-toc-modified-id="Analyse-a-specific-file-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Analyse a specific file</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Utilities" data-toc-modified-id="Utilities-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Utilities</a></span></li><li><span><a href="#Load-files-and-compute-all-spectrums" data-toc-modified-id="Load-files-and-compute-all-spectrums-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Load files and compute all spectrums</a></span></li><li><span><a href="#Blue-pipit-analysis" data-toc-modified-id="Blue-pipit-analysis-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Blue pipit analysis</a></span><ul class="toc-item"><li><span><a href="#Average-spectrum" data-toc-modified-id="Average-spectrum-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Average spectrum</a></span></li><li><span><a href="#Random-Blue-Pipit-spectrums" data-toc-modified-id="Random-Blue-Pipit-spectrums-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Random Blue Pipit spectrums</a></span><ul class="toc-item"><li><span><a href="#For-the-&quot;songs&quot;" data-toc-modified-id="For-the-&quot;songs&quot;-3.2.1"><span class="toc-item-num">3.2.1&nbsp;&nbsp;</span>For the "songs"</a></span></li><li><span><a href="#For-the-&quot;calls&quot;" data-toc-modified-id="For-the-&quot;calls&quot;-3.2.2"><span class="toc-item-num">3.2.2&nbsp;&nbsp;</span>For the "calls"</a></span></li></ul></li></ul></li><li><span><a href="#Kasios-files" data-toc-modified-id="Kasios-files-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Kasios files</a></span></li><li><span><a href="#Analyse-a-specific-file" data-toc-modified-id="Analyse-a-specific-file-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Analyse a specific file</a></span></li></ul></div>
 </div>
 </div>
 </div>
@@ -11855,7 +11855,7 @@ $( document ).ready(function(){
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_spectres</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>   
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_spectrums</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>   
     <span class="c1">###</span>
     <span class="c1">### Generate the spectres for all files within the dataframe given (maintains the df index)</span>
     <span class="c1">###</span>
@@ -11865,7 +11865,7 @@ $( document ).ready(function(){
     <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">row</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">()):</span>
         <span class="c1"># Progression</span>
         <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">50</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Computing spectres... (</span><span class="si">{0:.0%}</span><span class="s2">)  &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="o">/</span><span class="n">N</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Computing spectrums... (</span><span class="si">{0:.0%}</span><span class="s2">)  &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="o">/</span><span class="n">N</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">&quot;</span><span class="p">)</span>
         
         <span class="c1"># Reading the file</span>
         <span class="n">f</span> <span class="o">=</span> <span class="n">File</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s2">&quot;song&quot;</span><span class="p">])</span>
@@ -11883,7 +11883,7 @@ $( document ).ready(function(){
     <span class="n">X</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="n">freq</span><span class="p">,</span> <span class="n">orient</span> <span class="o">=</span> <span class="s2">&quot;index&quot;</span><span class="p">)</span>
     <span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">fill_value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
     
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All spectres have been generated.       &quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;All spectrums have been generated.       &quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">X</span>
 
 
@@ -11916,7 +11916,7 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Load-files-and-compute-all-spectres">Load files and compute all spectres<a class="anchor-link" href="#Load-files-and-compute-all-spectres">&#182;</a></h2>
+<h2 id="Load-files-and-compute-all-spectrums">Load files and compute all spectrums<a class="anchor-link" href="#Load-files-and-compute-all-spectrums">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -11961,8 +11961,8 @@ Done.
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#X = get_spectres(df_all) # Can be very long</span>
-<span class="c1">#X.to_pickle(&quot;data/all_birds_freq.pickle&quot;) # Save to cache</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># X = get_spectrums(df_all) # Can be very long</span>
+<span class="c1"># X.to_pickle(&quot;data/all_birds_freq.pickle&quot;) # Save to cache</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s2">&quot;data/all_birds_freq.pickle&quot;</span><span class="p">)</span> <span class="c1"># Quicker to use cache ;)</span>
 
 <span class="n">X</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -12458,7 +12458,7 @@ Done.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Average-spectre">Average spectre<a class="anchor-link" href="#Average-spectre">&#182;</a></h3>
+<h3 id="Average-spectrum">Average spectrum<a class="anchor-link" href="#Average-spectrum">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -12467,7 +12467,13 @@ Done.
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_species</span><span class="p">(</span><span class="s1">&#39;Rose-crested Blue Pipit&#39;</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">df_all</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">species</span> <span class="o">=</span> <span class="n">df_all</span><span class="o">.</span><span class="n">English_name</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Average spectrum of species&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">specie</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">species</span><span class="p">):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">plot_species</span><span class="p">(</span><span class="n">specie</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">df_all</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">rect</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.03</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -12500,8 +12506,11 @@ Done.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>You can see that frequencies are mainly between 3500Hz and 6000Hz for the Blue Pipit with a litle at 2000Hz</p>
+<div class="alert alert-info">
+You can see that frequencies are mainly between 3500Hz and 6000Hz for the Blue Pipit, with also some at 2000Hz.
 
+Sometimes you get some aberation due to bad noise filtration.
+</div>
 </div>
 </div>
 </div>
@@ -12509,17 +12518,7 @@ Done.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Blue pipit frequencies are between 4000 and 6000 Hz. No blue pipit has frequencies below too 3000Hz.</p>
-<p>Sometimes you get some aberation due to bad noise filtration.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Random-Blue-Pipit-Spectre">Random Blue Pipit Spectre<a class="anchor-link" href="#Random-Blue-Pipit-Spectre">&#182;</a></h3>
+<h3 id="Random-Blue-Pipit-spectrums">Random Blue Pipit spectrums<a class="anchor-link" href="#Random-Blue-Pipit-spectrums">&#182;</a></h3><h4 id="For-the-&quot;songs&quot;">For the "songs"<a class="anchor-link" href="#For-the-&quot;songs&quot;">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -12529,12 +12528,15 @@ Done.
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">N</span> <span class="o">=</span> <span class="mi">6</span>
-<span class="n">X_blue</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_all</span><span class="o">.</span><span class="n">English_name</span> <span class="o">==</span> <span class="s2">&quot;Rose-crested Blue Pipit&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+<span class="n">X_blue</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">df_all</span><span class="o">.</span><span class="n">English_name</span> <span class="o">==</span> <span class="s2">&quot;Rose-crested Blue Pipit&quot;</span><span class="p">)</span> 
+               <span class="o">&amp;</span> <span class="p">(</span><span class="n">df_all</span><span class="p">[</span><span class="s1">&#39;Vocalization_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;song&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
 <span class="n">df_blue</span> <span class="o">=</span> <span class="n">df_all</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_blue</span><span class="o">.</span><span class="n">index</span><span class="p">]</span>
 
 <span class="n">flim</span> <span class="o">=</span> <span class="mi">4000</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Random Blue Pipit &quot;song&quot; spectrums&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">22</span><span class="p">)</span>
+
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
     <span class="n">obs</span> <span class="o">=</span> <span class="n">df_blue</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
@@ -12560,7 +12562,65 @@ Done.
 
 
 <div class="output_png output_subarea ">
-<img src="output_16_0.png"
+<img src="output_15_0.png"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="For-the-&quot;calls&quot;">For the "calls"<a class="anchor-link" href="#For-the-&quot;calls&quot;">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">N</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="n">X_blue</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">df_all</span><span class="o">.</span><span class="n">English_name</span> <span class="o">==</span> <span class="s2">&quot;Rose-crested Blue Pipit&quot;</span><span class="p">)</span> 
+               <span class="o">&amp;</span> <span class="p">(</span><span class="n">df_all</span><span class="p">[</span><span class="s1">&#39;Vocalization_type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;call&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+<span class="n">df_blue</span> <span class="o">=</span> <span class="n">df_all</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_blue</span><span class="o">.</span><span class="n">index</span><span class="p">]</span>
+
+<span class="n">flim</span> <span class="o">=</span> <span class="mi">4000</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Random Blue Pipit &quot;call&quot; spectrums&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">22</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+    <span class="n">obs</span> <span class="o">=</span> <span class="n">df_blue</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">X_blue</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">flim</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;red&quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> n°</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">obs</span><span class="o">.</span><span class="n">English_name</span><span class="p">,</span> <span class="n">obs</span><span class="o">.</span><span class="n">name</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="output_17_0.png"
 >
 </div>
 
@@ -12580,7 +12640,7 @@ Done.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">40</span><span class="p">))</span>
@@ -12608,7 +12668,7 @@ Done.
 
 
 <div class="output_png output_subarea ">
-<img src="output_18_0.png"
+<img src="output_19_0.png"
 >
 </div>
 
@@ -12622,9 +12682,11 @@ Done.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>You can see that some Kasios file does not contains the Blue Pipit frequencies and even contains foreign frequencies for this species. Then, you can eliminate 1, 3, 4, 5, 6, 7, 10, 11, 12, 14 and 15 that contains foreign frequencies.</p>
-<p><b>The Blue Pipit must be within 2, 8, 9 and 13.</b></p>
+<div class="alert alert-info">
+You can see that some Kasios file does not contains the Blue Pipit frequencies and even contains foreign frequencies for this species. Then, you can eliminate 1, 3, 4, 5, 6, 7, 10, 11, 12, 14 and 15 that contains foreign frequencies.
 
+<b>The Blue Pipit must be within 2, 8, 9 and 13</b>. We might also include 11 and 14. 
+</div>
 </div>
 </div>
 </div>
@@ -12638,7 +12700,7 @@ Done.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">obs_id</span> <span class="o">=</span> <span class="mi">160293</span>
@@ -12653,57 +12715,10 @@ Done.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7f16ed465438&gt;]</pre>
-</div>
-
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="output_22_1.png"
->
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="o">.</span><span class="n">plotAmp</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12722,7 +12737,7 @@ Done.
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;lib.File.File at 0x7f16eef07ac8&gt;</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f34289e0ef0&gt;]</pre>
 </div>
 
 </div>
@@ -12750,8 +12765,7 @@ Done.
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">spectre</span><span class="p">,</span> <span class="n">freq</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">getNormalizedSpectre</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="n">spectre</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="o">.</span><span class="n">plotAmp</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -12770,7 +12784,7 @@ Done.
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7f16ed5936a0&gt;]</pre>
+<pre>&lt;lib.File.File at 0x7f34223b5898&gt;</pre>
 </div>
 
 </div>
@@ -12784,6 +12798,54 @@ Done.
 
 <div class="output_png output_subarea ">
 <img src="output_24_1.png"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">spectre</span><span class="p">,</span> <span class="n">freq</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">getNormalizedSpectre</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="n">spectre</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[14]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f3422219cf8&gt;]</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="output_25_1.png"
 >
 </div>
 
