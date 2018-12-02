@@ -10,7 +10,7 @@ Check our work and visualization **without the need to run anything**, thanks to
 - [2_dynamic_map.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/2_dynamic_map.html) (you need to run this since it runs on a local server)
 - [3_amplitude_analysis.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/3_amplitude_analysis/3_amplitude_analysis.html)
 - [4_spectral_analysis.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/4_spectral_analysis/4_spectral_analysis.html)
-- [5_classification_ml.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/5_classification_ml.html)
+- [5_classification_ml.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/5_classification_ml/5_classification_ml.html)
 
 ### Demo of the dynamic map
 
