@@ -6,11 +6,12 @@ Visualizations for the [VAST mini-challenge 1 (2018)](http://www.vacommunity.org
 
 Check our work and visualization **without the need to run anything**, thanks to these html links:
 
-- [1_basic_map.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/1_basic_map.html)
-- [2_dynamic_map.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/2_dynamic_map.html) (you need to run this since it runs on a local server)
-- [3_amplitude_analysis.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/3_amplitude_analysis/3_amplitude_analysis.html)
-- [4_spectral_analysis.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/4_spectral_analysis/4_spectral_analysis.html)
-- [5_classification_ml.html](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/5_classification_ml/5_classification_ml.html)
+1. [basic map](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/1_basic_map.html)
+2. [dynamic map](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/2_dynamic_map.html) (you need to run this since it runs on a local server)
+3. [amplitude analysis](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/3_amplitude_analysis/3_amplitude_analysis.html)
+4. [spectral analysis](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/4_spectral_analysis/4_spectral_analysis.html)
+5. [classification (machine learning)](https://guillaumefrd.github.io/vast-challenge-2018-mc1/html/5_classification_ml/5_classification_ml.html)
+6. [conclusion](https://docs.google.com/presentation/d/1oOwXbxa9OBZ5nYgeAn8yLO9sveuYgXnVLya9_R1UvwM/edit?usp=sharing)
 
 ### Demo of the dynamic map
 
